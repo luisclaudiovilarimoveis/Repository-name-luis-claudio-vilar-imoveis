@@ -31,3 +31,7 @@ Há cinco áreas clicáveis independentes em cada layout: Imóveis, Instagram, C
 Publique o conteúdo interno desta pasta na raiz do repositório. Ative GitHub Pages em **Settings → Pages → Deploy from a branch → main → /(root)**.
 
 O arquivo `CNAME` já contém `www.luisclaudiovilarimoveis.com.br`.
+
+
+## Estrutura desta versão
+Esta versão foi preparada para upload manual pelo GitHub: imagens e ícones ficam diretamente na raiz, sem pasta `assets`.

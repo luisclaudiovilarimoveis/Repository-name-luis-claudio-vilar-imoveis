@@ -10,3 +10,8 @@ PROJETO LUIS CLAUDIO VILAR — INSTRUÇÕES RÁPIDAS
 8. Depois configure o DNS no Registro.br conforme a documentação atual do GitHub Pages e ative Enforce HTTPS quando disponível.
 
 IMPORTANTE: não copie coordenadas de outros clientes. Este pacote já contém coordenadas específicas das artes de Luis Claudio Vilar.
+
+
+IMPORTANTE — VERSÃO CORRIGIDA PARA UPLOAD WEB DO GITHUB:
+Todos os arquivos, inclusive imagens e ícones, ficam na RAIZ do repositório. Não crie pasta assets.
+Ao extrair este ZIP, selecione TODOS os arquivos internos e envie para a raiz do repositório.

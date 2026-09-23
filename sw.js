@@ -1,4 +1,4 @@
-const CACHE_NAME = "luis-claudio-vilar-site-v1";
+const CACHE_NAME = "luis-claudio-vilar-site-v2";
 
 const STATIC_FILES = [
   "./",
@@ -8,16 +8,16 @@ const STATIC_FILES = [
   "./app.js",
   "./manifest.webmanifest",
   "./offline.html",
-  "./assets/capa-app.png",
-  "./assets/capa-mobile.png",
-  "./assets/capa-tablet-vertical.png",
-  "./assets/capa-tablet-horizontal.png",
-  "./assets/capa-desktop.png",
-  "./assets/icon-192.png",
-  "./assets/icon-512.png",
-  "./assets/icon-maskable-512.png",
-  "./assets/apple-touch-icon.png",
-  "./assets/favicon-32.png"
+  "./capa-app.png",
+  "./capa-mobile.png",
+  "./capa-tablet-vertical.png",
+  "./capa-tablet-horizontal.png",
+  "./capa-desktop.png",
+  "./icon-192.png",
+  "./icon-512.png",
+  "./icon-maskable-512.png",
+  "./apple-touch-icon.png",
+  "./favicon-32.png"
 ];
 
 self.addEventListener("install", (event) => {
