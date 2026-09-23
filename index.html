@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Luis Claudio Vilar — Imóveis</title>
+  <meta name="description" content="Luis Claudio Vilar Imóveis — CRECI/PB 9621F. Acesse imóveis e canais oficiais de contato.">
+  <meta name="theme-color" content="#061735">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://www.luisclaudiovilarimoveis.com.br/">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Luis Claudio Vilar">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app-config.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="pagina" aria-label="Cartão digital de Luis Claudio Vilar">
+    <section class="cartao" aria-label="Acessos rápidos">
+      <picture>
+        <source media="(orientation: landscape) and (pointer: coarse)" srcset="./assets/capa-tablet-horizontal.png">
+        <source media="(orientation: landscape) and (pointer: fine)" srcset="./assets/capa-desktop.png">
+        <source media="(orientation: portrait) and (min-width: 600px)" srcset="./assets/capa-tablet-vertical.png">
+        <img class="capa" src="./assets/capa-mobile.png" alt="Luis Claudio Vilar Imóveis — CRECI/PB 9621F." width="1080" height="1920" decoding="async" fetchpriority="high">
+      </picture>
+      <a class="area-link imoveis" data-link="imoveis" href="#" target="_blank" rel="noopener noreferrer" aria-label="Ver imóveis"><span class="sr-only">Imóveis</span></a>
+      <a class="area-link instagram" data-link="instagram" href="#" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram"><span class="sr-only">Instagram</span></a>
+      <a class="area-link whatsapp" data-link="whatsapp" href="#" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp"><span class="sr-only">Contato WhatsApp</span></a>
+      <a class="area-link email" data-link="email" href="#" aria-label="Enviar e-mail"><span class="sr-only">E-mail</span></a>
+      <a class="area-link youtube" data-link="youtube" href="#" target="_blank" rel="noopener noreferrer" aria-label="Abrir YouTube" aria-disabled="true" tabindex="-1"><span class="sr-only">YouTube</span></a>
+    </section>
+  </main>
+  <button id="installApp" class="install-app" type="button" hidden>Instal. App</button>
+  <div id="iosInstallModal" class="ios-install-modal" hidden role="dialog" aria-modal="true" aria-labelledby="iosInstallTitle">
+    <div class="ios-install-card">
+      <button id="closeIosInstall" class="ios-install-close" type="button" aria-label="Fechar instruções">×</button>
+      <h2 id="iosInstallTitle">Instalar aplicativo</h2>
+      <div id="installInstructions"></div>
+    </div>
+  </div>
+  <noscript><p class="aviso-js">Ative o JavaScript para usar os botões do cartão digital.</p></noscript>
+</body>
+</html>

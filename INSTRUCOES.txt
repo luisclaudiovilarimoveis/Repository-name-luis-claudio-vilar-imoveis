@@ -1,0 +1,12 @@
+PROJETO LUIS CLAUDIO VILAR — INSTRUÇÕES RÁPIDAS
+
+1. Extraia o ZIP.
+2. Envie TODOS os arquivos internos para a raiz do novo repositório GitHub.
+3. Ative GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root).
+4. Confira Imóveis, Instagram, WhatsApp e E-mail.
+5. O botão YouTube fica sem destino enquanto app-config.js tiver youtube: "xxxxxxx".
+6. Quando receber a URL do YouTube, altere SOMENTE esse valor em app-config.js e faça Commit changes.
+7. Domínio configurado no projeto: www.luisclaudiovilarimoveis.com.br
+8. Depois configure o DNS no Registro.br conforme a documentação atual do GitHub Pages e ative Enforce HTTPS quando disponível.
+
+IMPORTANTE: não copie coordenadas de outros clientes. Este pacote já contém coordenadas específicas das artes de Luis Claudio Vilar.
